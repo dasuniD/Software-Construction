@@ -1,0 +1,1 @@
+In random genarator if we gave range then they give numbers between that range as uniformly distributed.that mean around the middle of the range there are many random values , so that mean is around middle of that rang, so that average presentage calculated around 50% .  
