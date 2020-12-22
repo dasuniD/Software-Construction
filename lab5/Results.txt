@@ -1,0 +1,93 @@
+********************************************************
+Results(Run time)
+********************************************************
+
+------------------------------------------------------
+		Test case - 01 (small number with intger)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 1386108 ns
+number of Thread = 2 		duration = 1170330 ns  
+number of Thread = 4 		duration = 1397217 ns
+
+------------------------------------------------------
+		Test case - 02 (large number with intger)
+			A(18*25)  B(25*21)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 1248095 ns
+number of Thread = 5 		duration = 2172309 ns
+number of Thread = 10 		duration = 3069605 ns  
+number of Thread = 18 		duration = 3748986 ns
+
+------------------------------------------------------
+		Test case - 03 (large number with intger)
+			A(27*70)  B(70*40)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 4512542 ns
+number of Thread = 10 		duration = 4022875 ns
+number of Thread = 20 		duration = 5461539 ns  
+number of Thread = 27 		duration = 7489427 ns
+
+------------------------------------------------------
+		Test case - 04 (large number with intger)
+			A(70*70)  B(70*70)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 9845469 ns
+number of Thread = 10 		duration = 12040424 ns
+number of Thread = 40 		duration = 20671126 ns  
+number of Thread = 70 		duration = 21506892 ns
+
+------------------------------------------------------
+		Test case - 05 (large number with double)
+			A(70*70)  B(70*70)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 13300056 ns
+number of Thread = 10 		duration = 9854869 ns
+number of Thread = 40 		duration = 17753207 ns  
+number of Thread = 70 		duration = 22184991 ns
+
+------------------------------------------------------
+		Test case - 06 (large number with double)
+			A(27*70)  B(70*40)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 3523381 ns
+number of Thread = 10 		duration = 3372122 ns
+number of Thread = 20 		duration = 5954624 ns  
+number of Thread = 27 		duration = 5883695 ns
+
+------------------------------------------------------
+		Test case - 07 (large number with float)
+			A(27*70)  B(70*40)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 4187807 ns
+number of Thread = 10 		duration = 4877870 ns
+number of Thread = 20 		duration = 7684695 ns  
+number of Thread = 27 		duration = 7209983 ns
+
+------------------------------------------------------
+		Test case - 08 (large number with float)
+			A(1000*1000)  B(1000*1000)
+------------------------------------------------------
+
+number of Thread = 1 		duration = 4096022078 ns
+number of Thread = 50 		duration = 2224709533 ns
+number of Thread = 500 		duration = 2502059505 ns  
+number of Thread = 700 		duration = 2697203602 ns
+
+------------------------------------------------------
+
+
+*********************************************************
+conclusions
+*********************************************************
+for above result you can seen threads not big side effect for time taken 
+for programe for small matrix but if you see test case 04 and 07 thread help
+full for time reduce but that also not manyhelp full,but if you see test 
+case 8 in that result yo can see time taken for run programe is reduced
+by larg number if thread number is increce;
