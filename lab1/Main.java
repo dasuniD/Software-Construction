@@ -1,7 +1,6 @@
 
 /**
  * Date : 7/13/2017
- * @author Chamara
  */
 
 import java.io.BufferedReader;

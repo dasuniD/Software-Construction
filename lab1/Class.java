@@ -5,7 +5,6 @@ This is a programe to find student attendance
 
 /**
  * Date : 7/10/2017 
- * @author Chamara
  */
 
 public class Student {
